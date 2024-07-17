@@ -6,6 +6,12 @@
   height: var(--nav-height);
 }
 
+.app__theme {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+}
+
 .app__main {
   margin-top: var(--nav-height);
 }

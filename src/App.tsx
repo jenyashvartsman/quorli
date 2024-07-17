@@ -1,11 +1,16 @@
 import styles from "./App.module.css";
 import Nav from "./components/nav/Nav";
+import ThemeToggle from "./components/theme-toggle/ThemeToggle";
 
 function App() {
   return (
-    <div>
+    <>
       <section className={styles.app__nav}>
         <Nav />
+      </section>
+
+      <section className={styles.app__theme}>
+        <ThemeToggle />
       </section>
 
       <main className={styles.app__main}>
@@ -298,7 +303,7 @@ function App() {
           quibusdam voluptates sunt rem eaque, veniam nostrum expedita.
         </p>
       </main>
-    </div>
+    </>
   );
 }
 
