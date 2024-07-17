@@ -1,0 +1,11 @@
+.app__nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+}
+
+.app__main {
+  margin-top: var(--nav-height);
+}
